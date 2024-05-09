@@ -13,17 +13,17 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/btnPrev"
+            android:id="@+id/btnStart"
             android:layout_marginRight="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Prev"/>
+            android:text="사진보기 시작"/>
         <Button
-            android:id="@+id/btnNext"
+            android:id="@+id/btnStop"
             android:layout_marginRight="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"/>
+            android:text="사진보기 정지"/>
     </LinearLayout>
     <ViewFlipper
         android:id="@+id/flipper"
